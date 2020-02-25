@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="true">Line Of Safety</string>
+    <string name="create_account" translatable="false">Create An Account</string>
+    <string name="info_reason" translatable="false">The information you provide will help early responders in case of an emergency.</string>
+    <string name="hint_name" translatable="false">Name:</string>
+    <string name="hint_dob" translatable="false">DOB-DD/MM/YYYY</string>
+    <string name="label_blood" translatable="false">Blood Group:</string>
+    <string name="phone_num" translatable="false">Emergency Phone Numbers:</string>
+    <string name="phone_one" translatable="false">Phone 1</string>
+    <string name="phone_two" translatable="false">Phone 2</string>
+    <string name="phone_three" translatable="false">Phone 3</string>
+    <string name="med_notes">Medical Notes: </string>
+    <string name="short_label">SOS</string>
+    <string name="long_label">Emergency SOS</string>
+    <array name="phone_num">
+        <item>Phone Numbers</item>
+        <item>+911234567890</item>
+        <item>+910987654321</item>
+        <item>+919819003692</item>
+    </array>
+    <array name="blood_grp">
+        <item>Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </array>
+    <string name="label_gender" translatable="false">Gender:</string>
+    <string name="male" translatable="false">Male</string>
+    <string name="female" translatable="false">Female</string>
+    <string name="hint_med_notes" translatable="false">Medical Notes eg. Allergies, Medications etc</string>
+    <string name="save_continue" translatable="false">Save And Continue</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

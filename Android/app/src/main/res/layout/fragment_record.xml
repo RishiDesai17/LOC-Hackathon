@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBlack"
+    tools:context=".Record">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp
+"
+        app:cardBackgroundColor="@color/colorBlackMode"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/notes_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="52dp"
+                android:text="BlackBox Recording"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/playRecording"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/round_button"
+                android:backgroundTint="@color/colorBlue"
+                android:src="@drawable/ic_action_play" />
+
+            <TextView
+                android:id="@+id/dateStamp"
+                android:layout_width="220dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="140dp"
+                android:text="No Records"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/batteryStats"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="55dp"
+                android:text="No Records"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/locStats"
+                android:layout_width="220dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="97dp"
+                android:textColor="@color/colorWhite"
+                android:text="No Records" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="25dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="43dp"
+                android:src="@drawable/ic_action_battery_indicator" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="92dp"
+                android:background="@drawable/ic_action_location_indicator" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="135dp"
+                android:src="@drawable/ic_action_date_indicator" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
